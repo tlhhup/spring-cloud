@@ -2,25 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3ca6041-bc91-4676-8868-39554de6669b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/service/HelloService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_10.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_1_0_RELEASE.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/target/helloservice-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../helloservice/target/helloservice-1.0-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/target/ribbon-consumer-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/../ribbon-consumer/target/ribbon-consumer-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/springcloud-1.0-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/target/springcloud-1.0-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../helloservice/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/pom.xml" afterPath="$PROJECT_DIR$/../helloservice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/src/main/java/org/tlh/springcloud/Application.java" afterPath="$PROJECT_DIR$/../helloservice/src/main/java/org/tlh/springcloud/Application.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../helloservice/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../helloservice/target/classes/application.properties" afterPath="$PROJECT_DIR$/../helloservice/target/classes/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ribbon-consumer/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/pom.xml" afterPath="$PROJECT_DIR$/../ribbon-consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/ribbon-consumer.iml" afterPath="$PROJECT_DIR$/../ribbon-consumer/ribbon-consumer.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/Application.java" afterPath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/controller/ConsumerController.java" afterPath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/controller/ConsumerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../ribbon-consumer/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/target/classes/application.properties" afterPath="$PROJECT_DIR$/../ribbon-consumer/target/classes/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/service/HelloService.java" afterPath="$PROJECT_DIR$/../ribbon-consumer/src/main/java/org/tlh/springcloud/service/HelloService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -341,21 +336,30 @@
       <workItem from="1513608760279" duration="2343000" />
       <workItem from="1513689374264" duration="1909000" />
       <workItem from="1514002860480" duration="3909000" />
-      <workItem from="1514799321765" duration="659000" />
+      <workItem from="1514799321765" duration="1750000" />
     </task>
+    <task id="LOCAL-00001" summary="1.本地调试关闭服务注册中心自我保护">
+      <created>1514800523736</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1514800523737</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11601000" />
+    <option name="totallyTimeSpent" value="12692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32896653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -409,6 +413,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.本地调试关闭服务注册中心自我保护" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.本地调试关闭服务注册中心自我保护" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -426,6 +434,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,6 +471,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -490,6 +500,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="23" lean-forward="false" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,6 +551,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>

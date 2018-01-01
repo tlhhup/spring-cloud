@@ -16,7 +16,7 @@ public class HelloService {
         return restTemplate.getForEntity("http://HELLOSERVICE/hello",String.class).getBody();
     }
 
-    public String hellFallBack(){
+    public String helloFallBack(){
         return "error";
     }
 
