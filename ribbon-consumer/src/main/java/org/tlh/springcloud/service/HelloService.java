@@ -1,13 +1,6 @@
 package org.tlh.springcloud.service;
 
-<<<<<<< HEAD
-import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
-@Service("helloService")
-=======
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCollapser;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.netflix.hystrix.contrib.javanica.cache.annotation.CacheKey;
@@ -21,13 +14,11 @@ import org.tlh.springcloud.entity.User;
 import java.util.List;
 
 @Service("helloServce")
->>>>>>> 16a7f9e8b4577556016d1969b8a4c0edc1bf5458
 public class HelloService {
 
     @Autowired
     private RestTemplate restTemplate;
 
-<<<<<<< HEAD
     @HystrixCommand(fallbackMethod = "fallBack")
     public String hello(){
         return restTemplate.getForEntity("http://HELLOSERVICE/hello",String.class).getBody();
@@ -37,7 +28,6 @@ public class HelloService {
         return "fail";
     }
 
-=======
     //1.定义服务降级：Hystrix会进入fallBack尝试回退处理，该操作为"服务降级"
     /*
        以下情况不需要服务降级
@@ -59,7 +49,7 @@ public class HelloService {
         return restTemplate.getForEntity("http://HELLOSERVICE/hello/{1}",User.class,id).getBody();
     }
 
-    public User helloFallBack1(int id,Throwable e){
+    public User helloFallBack1(int id, Throwable e){
         assert "".equals(e.getMessage());
         return null;
     }
@@ -98,6 +88,4 @@ public class HelloService {
         return restTemplate.getForEntity("http://HELLOSERVICE/hellos/{1}",List.class,ids).getBody();
     }
 
-
->>>>>>> 16a7f9e8b4577556016d1969b8a4c0edc1bf5458
 }

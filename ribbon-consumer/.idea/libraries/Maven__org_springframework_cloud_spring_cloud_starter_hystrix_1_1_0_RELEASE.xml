@@ -1,7 +1,6 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.cloud:spring-cloud-starter-hystrix:1.1.0.RELEASE">
     <CLASSES>
-<<<<<<< HEAD
       <root url="jar://D:/apache-maven-3.3.9/repository/org/springframework/cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/spring-cloud-starter-hystrix-1.1.0.RELEASE.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -9,15 +8,6 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/apache-maven-3.3.9/repository/org/springframework/cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/spring-cloud-starter-hystrix-1.1.0.RELEASE-sources.jar!/" />
-=======
-      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/springframework/cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/spring-cloud-starter-hystrix-1.1.0.RELEASE.jar!/" />
-    </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/springframework/cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/spring-cloud-starter-hystrix-1.1.0.RELEASE-javadoc.jar!/" />
-    </JAVADOC>
-    <SOURCES>
-      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/springframework/cloud/spring-cloud-starter-hystrix/1.1.0.RELEASE/spring-cloud-starter-hystrix-1.1.0.RELEASE-sources.jar!/" />
->>>>>>> 16a7f9e8b4577556016d1969b8a4c0edc1bf5458
     </SOURCES>
   </library>
 </component>
