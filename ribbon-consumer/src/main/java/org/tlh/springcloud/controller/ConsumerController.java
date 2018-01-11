@@ -1,20 +1,21 @@
 package org.tlh.springcloud.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+import org.tlh.springcloud.service.HelloService;
+
+import javax.annotation.Resource;
 
 @RestController
 public class ConsumerController {
 
-    @Autowired
-    private RestTemplate restTemplate;
+    @Resource
+    private HelloService helloService;
 
     @RequestMapping(value = "/ribbon-consomer",method = RequestMethod.GET)
     public String helloConsumer(){
-        return restTemplate.getForEntity("http://HELLOSERVICE/hello",String.class).getBody();
+       return this.helloService.hello();
     }
 
 }
