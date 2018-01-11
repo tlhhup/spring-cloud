@@ -1,6 +1,7 @@
 <component name="libraryTable">
   <library name="Maven: org.aspectj:aspectjweaver:1.8.10">
     <CLASSES>
+<<<<<<< HEAD
       <root url="jar://D:/apache-maven-3.3.9/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar!/" />
     </CLASSES>
     <JAVADOC>
@@ -8,6 +9,15 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://D:/apache-maven-3.3.9/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10-sources.jar!/" />
+=======
+      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/apache-maven-3.5.2/repositories/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10-sources.jar!/" />
+>>>>>>> 16a7f9e8b4577556016d1969b8a4c0edc1bf5458
     </SOURCES>
   </library>
 </component>

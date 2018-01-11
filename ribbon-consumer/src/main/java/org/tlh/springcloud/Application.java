@@ -1,16 +1,20 @@
 package org.tlh.springcloud;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+<<<<<<< HEAD
 @EnableHystrix
+=======
+/*@EnableHystrix
+>>>>>>> 16a7f9e8b4577556016d1969b8a4c0edc1bf5458
 @EnableDiscoveryClient
-@SpringBootApplication
+@SpringBootApplication*/
+@SpringCloudApplication
 public class Application {
 
     @Bean
