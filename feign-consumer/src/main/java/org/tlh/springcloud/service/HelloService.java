@@ -3,10 +3,11 @@ package org.tlh.springcloud.service;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 import org.tlh.springcloud.entity.User;
+import org.tlh.springcloud.service.impl.HelloServiceImpl;
 
 //绑定服务提供者,同时也会创建同名的ribbon客户端
 // 在配置文件中可以通过client.key的方式进行配置ribbon信息，同时注意ribbon的超时重试时间必须大于hystrix的熔断时间
-@FeignClient(name="helloService")
+@FeignClient(name="helloService",fallback = HelloServiceImpl.class)
 public interface HelloService {
 
     @RequestMapping(value = "/hello",method = RequestMethod.GET)
