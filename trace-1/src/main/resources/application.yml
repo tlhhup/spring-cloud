@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: trace-1
+  zipkin:
+    base-url: http://localhost:8085/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+server:
+  port: 7001
